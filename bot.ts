@@ -6,7 +6,7 @@ const iconv = require('iconv-lite')
 //调用python子进程 同步调用
 const exec = require('child_process').exec
 
-const token = 'puppet_padplus_ab6ed4f532c1c21e'
+const token = 'you_token'
 const puppet = new PuppetPadplus({
   token,
 })
