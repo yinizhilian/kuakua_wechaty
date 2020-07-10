@@ -46,18 +46,8 @@ async function onMessage (msg: Message) {
       msg.say(out)
   })
 
-  
-  // if (msg.text() === '你好') {
-  //   await msg.say('你好，一看你就是美丽与善良的化身~')
-  // }
-  // else{
-  //   await msg.say('夸你，我已经词穷了，我太没有用了，求求你再给我点时间努力学习学习吧~~，┭┮﹏┭┮')
-  // }
 
 }
-
-
-
 
 bot.on('scan',    onScan)
 bot.on('login',   onLogin)
