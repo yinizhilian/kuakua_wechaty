@@ -3,11 +3,11 @@ const schedule=require('node-schedule')
 //人员信息管理
 const contater_arr=["Contact<下雨天bot>","Contact<今天bot>","Contact<PPbot>"]
 //群组信息管理
-const chatroom_arr=["6935712742@chatroom","24513956973@chatroom","7850799535@chatroom"]   //6935712742@chatroom[夸夸群]
+const chatroom_arr=["***2742@chatroom","******6973@chatroom","******35@chatroom"]   //***712742@chatroom[夸夸群]
 //自动发送人员管理
 const dailySend_user_arr=["下雨天bot","PPbot","今天bot"]//天气、"今天bot",,"PPbot"
 //自动发送群管理
-const dailySend_room_arr=["24513956973@chatroom","6935712742@chatroom","7850799535@chatroom"]//早安问候、
+const dailySend_room_arr=["******956973@chatroom","***712742@chatroom","***799535@chatroom"]//早安问候、
 
 let bot_for_msg=new Wechaty()
 
