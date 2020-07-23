@@ -66,6 +66,7 @@ async function onMessage (msg: Message) {
   MsgProc.room_msg_proc();
 }
 
+<<<<<<< HEAD
 async function onRoomjoin (room: Room,inviteeList:Contact[],inviter:Contact) {
   console.log('--------------打印room信息------------------------')
   console.log(room)
@@ -95,6 +96,8 @@ async function onRoomjoin (room: Room,inviteeList:Contact[],inviter:Contact) {
   //   console.log(`Room got new member ${nameList}, invited by ${inviter}`)
   // }
   // )
+=======
+>>>>>>> 021e52506cc37845deda9465fe83a12ece9b5c96
 
   // console.log('room_msg_proc')
   // const room = await bot_for_msg.Room.find({id:tmp}) 
@@ -106,12 +109,15 @@ async function onRoomjoin (room: Room,inviteeList:Contact[],inviter:Contact) {
   //     })
   // }
 
+<<<<<<< HEAD
 
   // MsgProc.msg_receive_proc(msg,bot_online_config)
   // MsgProc.room_msg_proc();
 // }
 
 
+=======
+>>>>>>> 021e52506cc37845deda9465fe83a12ece9b5c96
 bot.on('scan',    onScan)
 bot.on('login',   onLogin)
 bot.on('logout',  onLogout)
@@ -122,6 +128,7 @@ async function main(){
   await bot.start()
   .then(() => log.info('StarterBot', 'Starter Bot Started.'))
   .catch(e => log.error('StarterBot', e))
+<<<<<<< HEAD
   
   //自动定时消息发送启动
   MsgProc.sendbot(bot) //将bot传给消息处理。
@@ -131,3 +138,5 @@ async function main(){
 }
 
 main();
+=======
+>>>>>>> 021e52506cc37845deda9465fe83a12ece9b5c96
