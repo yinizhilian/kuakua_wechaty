@@ -23,7 +23,7 @@ const schedule=require('node-schedule')
 /*
   bot初始化
 */
-const token = 'puppet_padplus_e35c4ddaed71d7b3'
+const token = 'your-token'
 const puppet = new PuppetPadplus({
   token,
 })
